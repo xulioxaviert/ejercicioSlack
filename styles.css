@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap%27");
 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap%27");
+
+
 * {
   /* background-color: #f6f0e8; */
   font-family: "Lato", sans-serif;
@@ -121,10 +124,6 @@ body {
   margin-top: 80px;
 }
 
-/* .text > p{
-  color: #ffff;
-} */
-
 
 .forte {
   background-color: none;
@@ -152,6 +151,11 @@ body {
   margin: 5% 0 0 0;
 }
 
+.banner .text {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
 .close-icon {
   align-items: center;
   justify-content: center;
@@ -161,6 +165,7 @@ body {
   width: 225px;
   height: 120px;
   margin-left: 1%;
+  margin-top: -5%;
   
 }
 
@@ -288,6 +293,7 @@ iframe {
   width: 285px;
   margin: 10px;
   justify-content: center;
+   border: 1px rgba(90, 90, 90, 0.664) solid;
 }
 
 .card img {
@@ -449,3 +455,220 @@ iframe {
 
 /* FOOTER */
 
+
+.listc1-elem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 25px;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.listc1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.listc2 li {
+  margin-bottom: 25px;
+}
+
+.angle {
+  display: flex;
+}
+
+.containerA-1,
+.containerA-2,
+.containerA-3 {
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+.containerA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f2ecea;
+}
+
+.containerD {
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.containerC {
+  margin-top: 40px;
+}
+
+.containerA h3 {
+  margin-bottom: 10px;
+}
+
+.containerA p {
+  margin-bottom: 10px;
+}
+
+.boxA {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.containerB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+}
+
+.copyright {
+  color: gray;
+}
+
+.containerA-1 a {
+  color: #1264a3;
+}
+
+.copyright small {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.listc1 {
+  list-style-type: none;
+}
+
+.listc2 li {
+  list-style-type: none;
+}
+
+.sns-icons {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+
+.sns-icons svg {
+  width: 25px;
+  height: 25px;
+
+  margin-left: 40px;
+}
+.listc2 svg {
+  width: 15px;
+  height: 15px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.listc2 a {
+  color: #1264a3;
+  text-decoration: none;
+}
+
+.listc1 svg {
+  width: 15px;
+  height: 15px;
+}
+.containerA-1 div {
+  width: 35px;
+  height: 35px;
+  background-color: purple;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+
+.containerA-1 {
+  font-weight: bold;
+}
+
+.containerA-2 {
+  font-weight: bold;
+}
+
+.containerA-3 {
+  font-weight: bold;
+}
+
+.containerA-42 span {
+  color: gray;
+}
+
+.flecha a {
+  color: #1264a3;
+}
+
+.flecha a::after {
+  content: url("link flecha: data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%2025%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20stroke%3D%22%231264A3%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M1.548%207h21.904%22%2F%3E%3Cpath%20stroke-linejoin%3D%22round%22%20d%3D%22M17%201l7%206-7%206%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.buttonB1 {
+  width: 40px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  color: purple;
+}
+
+.buttonB2 {
+  width: 40px;
+  border-radius: 5px;
+  background-color: purple;
+  color: lightgray;
+}
+
+.containerB h3 {
+  color: white;
+  font-size: 25px;
+}
+.containerA-2 div {
+  width: 35px;
+  height: 35px;
+  background-color: purple;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+
+.containerA-3 div {
+  width: 35px;
+  height: 35px;
+  background-color: purple;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+
+.flecha span a::after {
+  content: "";
+}
+.flecha span a {
+  text-decoration: none;
+}
+
+.containerA-43 img {
+  width: 15px;
+  height: 15px;
+}
