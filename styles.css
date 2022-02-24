@@ -67,6 +67,10 @@ body {
 
 .slack-logo {
   padding: 1rem;
+  object-fit: contain;
+  justify-content: start;
+  display: flex;
+  flex-direction: row;
 }
 
 .icons {
